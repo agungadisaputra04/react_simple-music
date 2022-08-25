@@ -1,0 +1,98 @@
+#main {
+  font-family: Consolas, sans-serif;
+  background: #794141;
+  background-image: linear-gradient( to top left, #92008d , #00d9ff);
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  .nav-item {
+    height: 10vh;
+    display: flex;
+    font-size: 1.3rem;
+    .navbar-brand {
+      font-family: Helvetica, cursive;
+      color: #f8eeee;
+      font-size: 3rem;
+    }
+  }
+  .main-row {
+    display:inline-flex;
+   
+    justify-content: space-evenly;
+    align-items: center;
+   
+    height: 90vh;
+    
+    .main-row-img{
+      flex-basis: 45%;
+      flex-grow: 60%;
+      .head-phone-img {
+        width: 117%;
+        background-size: contain;
+     
+    
+      }
+    }
+    @media all and( max-width:480){
+    
+        width: 500%;
+      }
+    .main-row-text{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      flex-basis: 50%;
+      flex-grow: 1;
+      h1 {
+        font-family: "Bungee", cursive;
+        font-size: 2rem;
+        color: #fff;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #f8eeee;
+        font-size: 1.2rem;
+      }
+      .btn {
+        box-sizing: border-box;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        background-color: transparent;
+        border: 2px solid #e74c3c;
+        border-radius: 0.6em;
+        color: #e74c3c;
+        cursor: pointer;
+        display: flex;
+        align-self: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1;
+        margin: 20px;
+        padding: 1.2em 2.8em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+      }
+      .btn:hover, .btn:focus {
+        color: #fff;
+        outline: 0;
+      }
+      .third {
+        border-color: #2fbad3;
+        color: #fff;
+        box-shadow: 0 0 40px 40px #2fbad3 inset, 0 0 0 0 #2fbad3;
+        transition: all 100ms ease-in-out;
+      }
+      .third:hover {
+        box-shadow: 0 0 10px 0 #d1f7fa inset, 0 0 6px 3px #2fbad3;
+      }
+
+
+    }
+  }
+}

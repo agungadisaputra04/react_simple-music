@@ -1,0 +1,28 @@
+.brand{
+  // a{
+  //   // background-color: #ffd700;
+  //   box-shadow: 0 5px 5px 5px rgba(0,0,0,0.2),
+  //               0 4px 4px 0 rgba(0,0,0,0.14),
+  //               0 5px 10px 0 rgba(0,0,0,0.12);
+  //   padding: 0px 0px;
+  //   border-radius: 0px;
+  //   color: #fff;
+  //   transition: all .4s ease-in-out;
+  // }
+  
+  // p{
+  //   font-size: 4px;
+  //   color: rgb(100, 100, 100);
+  // }
+  img{
+
+  
+    margin: 5 10px ;
+    transform: rotateX(0deg) translateY(14px);
+  }
+}
+@media only screen and (max-width: 240px) {
+  .brand{
+    display: none;
+  }
+}
